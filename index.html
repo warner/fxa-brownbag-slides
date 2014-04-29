@@ -31,7 +31,7 @@
   <div class="slides">
 
     <section>
-      <h2>Firefox Accounts and FF Sync</h2>
+      <h2>Firefox Sync and Firefox Accounts in FF29</h2>
       <br>
       <br>
       <br>
@@ -44,6 +44,8 @@
     <section>
       <h3>Outline</h3>
       <ul>
+        <li>Old FF Sync</li>
+        <li>New FF Sync</li>
         <li>What are Firefox Accounts?</li>
         <li>What is FxA used for?</li>
         <li>FxA + Firefox Sync</li>
@@ -52,60 +54,31 @@
     </section>
 
     <section>
-      <h3>What is a Firefox Account?</h3>
-      <ul>
-        <li>Single sign-on for a variety of Mozilla services</li>
-        <li>Usable in any browser</li>
-        <ul>
-          <li>But some features will only be used by Firefox at first</li>
-        </ul>
-    </section>
-
-    <section>
-      <h3>What is FxA used for?</h3>
-      <ul>
-        <li>Firefox Sync (as of FF29)</li>
-        <li>Marketplace (soon)</li>
-        <li>Where's My Fox (soon)</li>
-        <li>other upcoming Mozilla services</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>What does a Firefox Account get you?</h3>
-      <ul>
-        <li>Input: email address + password</li>
-        <li>Output: encryption keys + BrowserID assertions</li>
-        <ul>
-          <li>kA (recoverable by email)</li>
-          <li>kB (protected by password)</li>
-          <li>signed BrowserID certificate</li>
-        </ul>
-      </ul>
-      <br>
-      <br>
-      <img src="images/FxA-overview.png">
-    </section>
-
-    <section>
-      <h3>How is FxA used by Sync?</h3>
-      <ul>
-        <li>assertion enables read/write of ciphertext (WORDSMITH THIS)</li>
-        <li>kB key encrypts data</li>
-        <li>.. but first, we review old Sync</li>
-      </ul>
-      <aside class="notes">first, we need to talk about old sync</aside>
-    </section>
-
-    <section>
-      <h3>Old Sync</h3>
+      <h3>Firefox Sync</h3>
       <ul>
         <li>Introduced in Firefox 4.0 (March 2011)</li>
-        <li>Goals:</li>
+        <li>Synchronizes:</li>
         <ul>
-          <li>secure sync of two or more devices</li>
+          <li>bookmarks, history, open-tabs</li>
+          <li>passwords, add-ons, prefs</li>
         </ul>
+        <li>Between two or more Firefox browsers</li>
+        <ul><li>Desktop and Android</li></ul>
       </ul>
+    </section>
+
+    <section>
+      <h3>Sync Security</h3>
+      <ul>
+        <li>All data is encrypted</li>
+        <li>Sync Storage Server only holds ciphertext</li>
+        <li>Each connected browser knows the key</li>
+        <li>Nobody else knows the key</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Old Sync: Pairing</h3>
       <img src="images/pairing-codes.png">
     </section>
 
@@ -176,6 +149,52 @@
         <li>conventional password-based signin</li>
         <img src="images/new-sync-boxes.png">
       </ul>
+    </section>
+
+    <section>
+      <h3>What is a Firefox Account?</h3>
+      <ul>
+        <li>Single sign-on for a variety of Mozilla services</li>
+        <li>Usable in any browser</li>
+        <ul>
+          <li>But some features will only be used by Firefox at first</li>
+        </ul>
+    </section>
+
+    <section>
+      <h3>What is FxA used for?</h3>
+      <ul>
+        <li>Firefox Sync (as of FF29)</li>
+        <li>Marketplace (soon)</li>
+        <li>Where's My Fox (soon)</li>
+        <li>other upcoming Mozilla services</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>What does a Firefox Account get you?</h3>
+      <ul>
+        <li>Input: email address + password</li>
+        <li>Output: encryption keys + BrowserID assertions</li>
+        <ul>
+          <li>kA (recoverable by email)</li>
+          <li>kB (protected by password)</li>
+          <li>signed BrowserID certificate</li>
+        </ul>
+      </ul>
+      <br>
+      <br>
+      <img src="images/FxA-overview.png">
+    </section>
+
+    <section>
+      <h3>How is FxA used by Sync?</h3>
+      <ul>
+        <li>assertion enables read/write of ciphertext (WORDSMITH THIS)</li>
+        <li>kB key encrypts data</li>
+        <li>.. but first, we review old Sync</li>
+      </ul>
+      <aside class="notes">first, we need to talk about old sync</aside>
     </section>
 
     <section>
