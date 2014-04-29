@@ -18,9 +18,12 @@
 	<key>GuidesVisible</key>
 	<string>YES</string>
 	<key>ImageCounter</key>
-	<integer>5</integer>
+	<integer>8</integer>
 	<key>ImageLinkBack</key>
 	<array>
+		<dict/>
+		<dict/>
+		<dict/>
 		<dict/>
 		<dict/>
 		<dict/>
@@ -28,6 +31,9 @@
 	</array>
 	<key>ImageList</key>
 	<array>
+		<string>image7.png</string>
+		<string>image6.png</string>
+		<string>image5.png</string>
 		<string>image4.png</string>
 		<string>image3.png</string>
 		<string>image2.png</string>
@@ -1103,8 +1109,8 @@ random}</string>
 					<integer>1425</integer>
 					<key>Points</key>
 					<array>
-						<string>{239.25361623689159, 60.725452307893931}</string>
-						<string>{288.44593362729017, 66.205947319166697}</string>
+						<string>{239.25361608140744, 60.725453815591798}</string>
+						<string>{288.44593324487118, 66.206099768468306}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2401,7 +2407,7 @@ key}</string>
 			<key>ColumnSpacing</key>
 			<real>36</real>
 			<key>DisplayScale</key>
-			<string>1 0/72 in = 1 0/72 in</string>
+			<string>1 0/72 in = 1.0000 in</string>
 			<key>GraphicsList</key>
 			<array>
 				<dict>
@@ -3251,7 +3257,7 @@ key}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2014-04-07 22:55:15 +0000</string>
+	<string>2014-04-29 18:22:03 +0000</string>
 	<key>Modifier</key>
 	<string>Brian Warner</string>
 	<key>NotesVisible</key>
@@ -3308,6 +3314,8 @@ key}</string>
 	<key>Sheets</key>
 	<array>
 		<dict>
+			<key>ActiveLayerIndex</key>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>unused</string>
@@ -3411,6 +3419,8 @@ key}</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>ActiveLayerIndex</key>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>unused</string>
@@ -3514,6 +3524,8 @@ key}</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>ActiveLayerIndex</key>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>unused</string>
@@ -3619,6 +3631,8 @@ key}</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>ActiveLayerIndex</key>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>unused</string>
@@ -3837,6 +3851,8 @@ key}</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>ActiveLayerIndex</key>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>unused</string>
@@ -4086,9 +4102,317 @@ key}</string>
 			<key>RowSpacing</key>
 			<real>36</real>
 			<key>SheetTitle</key>
-			<string>new-sync</string>
+			<string>new-sync-setup</string>
 			<key>UniqueID</key>
 			<integer>105</integer>
+			<key>VPages</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>ActiveLayerIndex</key>
+			<integer>0</integer>
+			<key>AutoAdjust</key>
+			<true/>
+			<key>BackgroundGraphic</key>
+			<dict>
+				<key>Bounds</key>
+				<string>{{0, 0}, {756, 553}}</string>
+				<key>Class</key>
+				<string>SolidGraphic</string>
+				<key>ID</key>
+				<integer>2</integer>
+				<key>Style</key>
+				<dict>
+					<key>shadow</key>
+					<dict>
+						<key>Draws</key>
+						<string>NO</string>
+					</dict>
+					<key>stroke</key>
+					<dict>
+						<key>Draws</key>
+						<string>NO</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>BaseZoom</key>
+			<integer>0</integer>
+			<key>CanvasOrigin</key>
+			<string>{0, 0}</string>
+			<key>ColumnAlign</key>
+			<integer>1</integer>
+			<key>ColumnSpacing</key>
+			<real>36</real>
+			<key>DisplayScale</key>
+			<string>1 pt = 1 px</string>
+			<key>GraphicsList</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>LineGraphic</string>
+					<key>ControlPoints</key>
+					<array>
+						<string>{-22.877319003992966, 48.1212572152956}</string>
+						<string>{-80.465053048527068, -112.01997581265528}</string>
+					</array>
+					<key>ID</key>
+					<integer>10</integer>
+					<key>Points</key>
+					<array>
+						<string>{432.34524105529044, 257.17262052764391}</string>
+						<string>{459.72327194963918, 469.37947611640772}</string>
+					</array>
+					<key>Style</key>
+					<dict>
+						<key>stroke</key>
+						<dict>
+							<key>Bezier</key>
+							<true/>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.0697055</string>
+								<key>g</key>
+								<string>0</string>
+								<key>r</key>
+								<string>0.74016</string>
+							</dict>
+							<key>HeadArrow</key>
+							<string>FilledArrow</string>
+							<key>Legacy</key>
+							<true/>
+							<key>LineType</key>
+							<integer>1</integer>
+							<key>TailArrow</key>
+							<string>0</string>
+							<key>Width</key>
+							<real>6</real>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>LineGraphic</string>
+					<key>ControlPoints</key>
+					<array>
+						<string>{-22.877319003992966, 48.1212572152956}</string>
+						<string>{10.255349898341706, -78.0984338412174}</string>
+					</array>
+					<key>ID</key>
+					<integer>9</integer>
+					<key>Points</key>
+					<array>
+						<string>{423.6676372951552, 248.4950167675093}</string>
+						<string>{325.61485020209409, 442.55779176689867}</string>
+					</array>
+					<key>Style</key>
+					<dict>
+						<key>stroke</key>
+						<dict>
+							<key>Bezier</key>
+							<true/>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.0697055</string>
+								<key>g</key>
+								<string>0</string>
+								<key>r</key>
+								<string>0.74016</string>
+							</dict>
+							<key>HeadArrow</key>
+							<string>FilledArrow</string>
+							<key>Legacy</key>
+							<true/>
+							<key>LineType</key>
+							<integer>1</integer>
+							<key>TailArrow</key>
+							<string>0</string>
+							<key>Width</key>
+							<real>6</real>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>LineGraphic</string>
+					<key>ControlPoints</key>
+					<array>
+						<string>{-22.877319003992966, 48.1212572152956}</string>
+						<string>{68.631957011978955, -11.04422296744491}</string>
+					</array>
+					<key>ID</key>
+					<integer>8</integer>
+					<key>Points</key>
+					<array>
+						<string>{414.99003353501996, 239.81741300737468}</string>
+						<string>{283.24823099478454, 322.64908526321136}</string>
+					</array>
+					<key>Style</key>
+					<dict>
+						<key>stroke</key>
+						<dict>
+							<key>Bezier</key>
+							<true/>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.0697055</string>
+								<key>g</key>
+								<string>0</string>
+								<key>r</key>
+								<string>0.74016</string>
+							</dict>
+							<key>HeadArrow</key>
+							<string>FilledArrow</string>
+							<key>Legacy</key>
+							<true/>
+							<key>LineType</key>
+							<integer>1</integer>
+							<key>TailArrow</key>
+							<string>0</string>
+							<key>Width</key>
+							<real>6</real>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{56.009987906327588, 377.08132703133253}, {368, 150}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>7</integer>
+					<key>ImageID</key>
+					<integer>7</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{441.65625579374978, 11.044222967444966}, {287.9371337890625, 529.33380126953125}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>6</integer>
+					<key>ImageID</key>
+					<integer>6</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{13.496440548221285, 7.0998576219288561}, {352.87936401367188, 396.80316162109375}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>5</integer>
+					<key>ImageID</key>
+					<integer>5</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+				</dict>
+			</array>
+			<key>GridInfo</key>
+			<dict/>
+			<key>HPages</key>
+			<integer>1</integer>
+			<key>KeepToScale</key>
+			<false/>
+			<key>Layers</key>
+			<array>
+				<dict>
+					<key>Lock</key>
+					<string>NO</string>
+					<key>Name</key>
+					<string>unused</string>
+					<key>Print</key>
+					<string>YES</string>
+					<key>View</key>
+					<string>YES</string>
+				</dict>
+			</array>
+			<key>LayoutInfo</key>
+			<dict>
+				<key>Animate</key>
+				<string>NO</string>
+				<key>circoMinDist</key>
+				<real>18</real>
+				<key>circoSeparation</key>
+				<real>0.0</real>
+				<key>layoutEngine</key>
+				<string>neato</string>
+				<key>neatoSeparation</key>
+				<real>0.0</real>
+				<key>twopiSeparation</key>
+				<real>0.0</real>
+			</dict>
+			<key>Orientation</key>
+			<integer>2</integer>
+			<key>PrintOnePage</key>
+			<false/>
+			<key>RowAlign</key>
+			<integer>1</integer>
+			<key>RowSpacing</key>
+			<real>36</real>
+			<key>SheetTitle</key>
+			<string>new-sync-setup 2</string>
+			<key>UniqueID</key>
+			<integer>112</integer>
 			<key>VPages</key>
 			<integer>1</integer>
 		</dict>
@@ -4410,6 +4734,8 @@ key}</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>ActiveLayerIndex</key>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>unused</string>
@@ -10285,8 +10611,8 @@ dkLen=32}</string>
 					<integer>1406</integer>
 					<key>Points</key>
 					<array>
-						<string>{496.21681786940894, 96.171370641697465}</string>
-						<string>{520.3355914179408, 110.83203300859074}</string>
+						<string>{496.21681786940894, 96.17137064169745}</string>
+						<string>{519.90833225510619, 110.57232235966922}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -22443,7 +22769,7 @@ options.payload = true}</string>
 					<key>Points</key>
 					<array>
 						<string>{307.34657645672655, 505.2547838807364}</string>
-						<string>{455.97162399933939, 431.94613933791618}</string>
+						<string>{455.97162399933939, 431.94613933791612}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -30841,7 +31167,7 @@ Time}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>0</integer>
+		<integer>7</integer>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>FitInWindow</key>
@@ -30861,9 +31187,9 @@ Time}</string>
 		<key>SidebarWidth</key>
 		<integer>140</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, -20}, {699.34331831505074, 460.31893534164374}}</string>
+		<string>{{-42, 0}, {840.14981859491468, 553.0000214413476}}</string>
 		<key>Zoom</key>
-		<real>1.5228571891784668</real>
+		<real>1.2676310539245605</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -30957,7 +31283,7 @@ Time}</string>
 				<real>1</real>
 			</array>
 			<array>
-				<string>new-sync</string>
+				<string>new-sync-setup</string>
 				<real>0.0</real>
 				<real>1</real>
 			</array>
@@ -30988,6 +31314,11 @@ Time}</string>
 			</array>
 			<array>
 				<string>new-sync 6</string>
+				<real>0.0</real>
+				<real>1</real>
+			</array>
+			<array>
+				<string>new-sync-setup 2</string>
 				<real>0.0</real>
 				<real>1</real>
 			</array>

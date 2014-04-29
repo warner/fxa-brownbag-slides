@@ -44,12 +44,10 @@
     <section>
       <h3>Outline</h3>
       <ul>
-        <li>Old FF Sync</li>
-        <li>New FF Sync</li>
-        <li>What are Firefox Accounts?</li>
-        <li>What is FxA used for?</li>
+        <li>Old FF Sync: design, pairing, problems</li>
+        <li>New FF Sync: setup</li>
+        <li>Introducing Firefox Accounts (FxA)</li>
         <li>FxA + Firefox Sync</li>
-        <li>FxA Security Properties</li>
       </ul>
     </section>
 
@@ -137,18 +135,33 @@
       <h3>Old Sync Problems</h3>
       <ul>
         <li>not useful for single device, surprising setup process</li>
-        <li>too many unhappy users, not enough happy users</li>
       </ul>
         <img src="images/pairing-wtf.png">
     </section>
 
     <section>
-      <h3>Sync (now with FxA!): Fx29</h3>
+      <h3>New Sync: FF29</h3>
       <ul>
         <li>secure sync one or more devices with cloud</li>
         <li>conventional password-based signin</li>
-        <img src="images/new-sync-boxes.png">
       </ul>
+    </section>
+
+    <section>
+      <img src="images/new-sync-entrypoints.png">
+    </section>
+
+    <section>
+      <img src="images/screenshots/new-sync-welcome.png">
+    </section>
+
+    <section>
+      <img src="images/screenshots/new-sync-sign-up.png">
+    </section>
+
+    <section>
+      <img src="images/screenshots/new-sync-sign-in.png">
+      <aside class="notes">what's really happening here is that you're signing into a Firefox Account</aside>
     </section>
 
     <section>
@@ -172,18 +185,26 @@
     </section>
 
     <section>
+      <h3>Proving Control of a Firefox Account</h3>
+      <ul>
+        <li>To use an account, you must prove:
+        <ul>
+          <li>the ability to receive email</li>
+          <li>knowledge of account password</li>
+        </ul>
+      </ul>
+    </section>
+
+    <section>
       <h3>What does a Firefox Account get you?</h3>
       <ul>
-        <li>Input: email address + password</li>
-        <li>Output: encryption keys + BrowserID assertions</li>
+        <li>encryption keys + BrowserID assertions</li>
         <ul>
           <li>kA (recoverable by email)</li>
           <li>kB (protected by password)</li>
           <li>signed BrowserID certificate</li>
         </ul>
       </ul>
-      <br>
-      <br>
       <img src="images/FxA-overview.png">
     </section>
 
@@ -192,9 +213,7 @@
       <ul>
         <li>assertion enables read/write of ciphertext (WORDSMITH THIS)</li>
         <li>kB key encrypts data</li>
-        <li>.. but first, we review old Sync</li>
       </ul>
-      <aside class="notes">first, we need to talk about old sync</aside>
     </section>
 
     <section>
@@ -267,6 +286,16 @@
         <li>server does not learn password or kB</li>
       </ul>
       <img src="images/onepw-overview.png">
+    </section>
+
+    <section>
+      <h3>Old Sync Accounts</h3>
+      <ul>
+        <li>pre-FF29 Sync accounts will continue to work</li>
+        <li>.. but aren't interoperable with new FxA-based accounts</li>
+        <li>same backend, only difference is key management</li>
+      </ul>
+      <aside class="notes"></aside>
     </section>
 
     <section>
