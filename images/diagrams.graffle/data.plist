@@ -3257,7 +3257,7 @@ key}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2014-04-29 18:22:03 +0000</string>
+	<string>2014-05-01 00:45:54 +0000</string>
 	<key>Modifier</key>
 	<string>Brian Warner</string>
 	<key>NotesVisible</key>
@@ -4152,15 +4152,15 @@ key}</string>
 					<string>LineGraphic</string>
 					<key>ControlPoints</key>
 					<array>
-						<string>{-22.877319003992966, 48.1212572152956}</string>
-						<string>{-80.465053048527068, -112.01997581265528}</string>
+						<string>{-7.0998576219288907, 9.466476829238502}</string>
+						<string>{56.798860975430841, -53.643368699018026}</string>
 					</array>
 					<key>ID</key>
 					<integer>10</integer>
 					<key>Points</key>
 					<array>
-						<string>{432.34524105529044, 257.17262052764391}</string>
-						<string>{459.72327194963918, 469.37947611640772}</string>
+						<string>{600.14267825000991, 366.03710406388768}</string>
+						<string>{509.42227530314113, 459.91299928716921}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4195,15 +4195,15 @@ key}</string>
 					<string>LineGraphic</string>
 					<key>ControlPoints</key>
 					<array>
-						<string>{-22.877319003992966, 48.1212572152956}</string>
-						<string>{10.255349898341706, -78.0984338412174}</string>
+						<string>{-8.4636078264679782, 11.04422296744491}</string>
+						<string>{7.8887306910320945, -7.8887306910320376}</string>
 					</array>
 					<key>ID</key>
 					<integer>9</integer>
 					<key>Points</key>
 					<array>
-						<string>{423.6676372951552, 248.4950167675093}</string>
-						<string>{325.61485020209409, 442.55779176689867}</string>
+						<string>{409.23539552703397, 310.02711615756004}</string>
+						<string>{323.24823099478448, 437.03568400067132}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -4239,13 +4239,13 @@ key}</string>
 					<key>ControlPoints</key>
 					<array>
 						<string>{-22.877319003992966, 48.1212572152956}</string>
-						<string>{68.631957011978955, -11.04422296744491}</string>
+						<string>{68.399430487715392, -44.965764938882785}</string>
 					</array>
 					<key>ID</key>
 					<integer>8</integer>
 					<key>Points</key>
 					<array>
-						<string>{414.99003353501996, 239.81741300737468}</string>
+						<string>{397.40229949048586, 195.64052113759516}</string>
 						<string>{283.24823099478454, 322.64908526321136}</string>
 					</array>
 					<key>Style</key>
